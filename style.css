@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Neue Haas Grotesk Display Pro", "Yu Gothic", sans-serif;
+    font-size: 1.4rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #161617;
+    letter-spacing: 0.25em;
+}
+
+/*
+a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  a::after {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #161617;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+  }
+
+  a:hover::after {
+    transform: scale(1.1, 1);
+  }
+  */
+
+/*ここより下から*/
+.container {
+    margin: 0 auto;
+    max-width: 2600px;
+    width: 100%;
+    padding: 0 90px;
+}
+
+#banner {
+    height: 90px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+#banner h1 {
+    font-weight: normal;
+    float: left;
+    margin-left: 90px;
+    margin-top: 37px;
+    font-size: 1.4rem;
+}
+
+#banner ul {
+    float: right;
+    margin-right: 90px;
+    margin-top: 38px;
+}
+
+#banner li {
+    float: left;
+    margin-left: 48px;
+    font-size: 1.2rem;
+}
+
+#micon {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    float: right;
+    color: 161617;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+
+#language {
+    font-size: 1.2rem;
+    margin-right: 90px;
+    padding-top: 121px;
+    float: right;
+}
+
+#phone-wrap {
+    display: none;
+}
+
+#archive {
+    margin: 170px 90px 0 90px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#archive a {
+    display: block;
+    width: 30%;
+    margin: 0 1.2345679012% ;
+    margin-bottom: 1.2345679012%;
+    float: left;
+    flex: auto;
+}
+
+#archive img {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#archive h1,p {
+    color: #161617;
+    font-size: 1.2rem;
+    letter-spacing: 0.25em;
+    text-align: right;
+}
+
+#contact-wrap {
+    text-align: center;
+    margin-top: 400px;
+}
+
+#about-wrap {
+    margin-top: 400px;
+letter-spacing: 0.05em;
+}
+
+#footer {
+    height: 90px;
+    width: 100%;
+    padding: 40px 90px;
+}
+
+
+/*projects-details*/
+
+.text {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 121px;
+    position: relative;
+}
+.text-left {
+    float: left;
+}
+
+.text-left h2 {
+    font-size: 1.7rem;
+    color: #161617;
+    letter-spacing: 0.25em;
+}
+
+.text-left p {
+    margin-top: 16px;
+    text-align: left;
+    width: 588px;
+    font-size: 1.3rem;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+}
+
+#jp {
+    margin-top: 16px;
+    text-align: left;
+    width: 588px;
+    font-size: 1.3rem;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    font-family: "YuGothic";
+
+}
+
+.text-right {
+    position: absolute;
+    line-height: 20px;
+    bottom: 0;
+    right: 0;
+}
+
+.images {
+    margin-top: 31px;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+#img01 {
+    margin-bottom: 24px;
+}
+
+#img02 {
+    float: left;
+    margin-right: 24px;
+}
+
+#img04 {
+    margin-top: 24px;
+}
+
+#gnav {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#gnav li {
+    padding: 20px 20px;
+}
